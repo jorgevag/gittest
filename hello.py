@@ -8,3 +8,4 @@ if __name__ == '__main__':
   name = 'Jorgen'
   greet(name)
   goodbye(name)
+  print("The ENd!")
