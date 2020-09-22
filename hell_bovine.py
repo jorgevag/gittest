@@ -1,7 +1,10 @@
 @dataclass
 class Weapon:
-  damage: int = 1
+  damage: int
+
+class Halberd:
+  damage: int = 30
 
 class HellBovine:
   health: int = 100
-  weapon: Optional[Weapon] = None
+  weapon: Optional[Weapon] = Halberd
