@@ -12,6 +12,7 @@ class Weapon:
 @dataclass
 class Halberd:
   damage: int = 30
+  attack_speed = 'slow'
 
 @dataclass
 class HellBovine:
